@@ -11,3 +11,20 @@ class Solution {
         return k+1;
     }
 }
+
+// class Solution {
+//     public int removeDuplicates(int[] nums) {
+//         int n = nums.length;
+//         ArrayList<Integer> list = new ArrayList<>();
+//         for(int num : nums){
+//             if(!list.contains(num)){
+//                 list.add(num);
+//             }
+//         }
+//         int i;
+//         for(i=0; i<list.size(); i++){
+//             nums[i] = list.get(i);
+//         }
+//         return i;
+//     }
+// }
